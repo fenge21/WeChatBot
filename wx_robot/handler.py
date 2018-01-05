@@ -90,3 +90,17 @@ class XiaodouHandler(object):
         except requests.exceptions.RequestException:
             return self.DEFAULT_MSG
         return resp.text
+
+class ChatterHandler(object):
+    def __init__(self):
+        self.bot = ChatBot("Demo")
+
+    def match(self, msg):
+        return True
+
+    def handle(self, msg):
+        try:
+            resp = self.bot.get_response(msg.text)
+        except requests.exceptions.RequestException:
+            return u'Chatter走丢啦'
+        return resp.text
