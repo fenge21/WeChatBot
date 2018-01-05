@@ -1,5 +1,5 @@
 ### 介绍
-
+由于实验楼课程 [《利用微信API将你的微信变为聊天机器人》使用的图灵机器人和小豆机器人均不开源,所以添加了 chatterbot 开源聊天机器人.
 该项目为实验楼课程 [《利用微信API将你的微信变为聊天机器人》](https://www.shiyanlou.com/courses/684) 直播视频的相关代码。在直播中，我们基于 [itchat](https://github.com/littlecodersh/ItChat) 软件包实现了一个简单的微信机器人，接入了 [图灵机器人](http://www.tuling123.com/), [小豆机器人](http://xiao.douqq.com/), 以及简单的系统监控功能。
 
 课程地址 https://www.shiyanlou.com/courses/684
