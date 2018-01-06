@@ -9,7 +9,7 @@
 
 <br />
 <br />
-<p align="center"><img src="https://raw.githubusercontent.com/aiden0z/wx_robot_example/master/robot.png"></p>
+<p align="center"><img src="https://github.com/fenge21/WeChatBot/blob/master/robot.png"></p>
 <p align="center">效果图</p>
 
 ## 原理
