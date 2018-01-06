@@ -91,6 +91,7 @@ class XiaodouHandler(object):
             return self.DEFAULT_MSG
         return resp.text
 
+
 class ChatterHandler(object):
     def __init__(self):
         self.bot = ChatBot("Demo")
